@@ -17,7 +17,7 @@ GO SDK可以在go1.3及以上环境下运行。
 使用`go get`工具从github进行下载：
 
 ```shell
-go get github.com/baidubce/bce-sdk-go
+go get github.com/YaoJunZhao/bce-sdk-go
 ```
 
 **SDK目录结构**
@@ -28,6 +28,11 @@ bce-sdk-go
 |--bce                    //BCE公用基础组件
 |--http                   //BCE的http通信模块
 |--services               //BCE相关服务目录
+|  |--iotdm               //IoT Hub服务目录
+|  |  |--client.go        //IoT Hub客户端入口
+|  |  |--api              //IoT Hub相关API目录
+|  |     |--device.go     //IoT Hub设备相关API实现
+|  |     |--model.go      //IoT Hub相关API的数据模型
 |  |--bos                 //BOS服务目录
 |  |  |--bos_client.go    //BOS客户端入口
 |  |  |--api              //BOS相关API目录
