@@ -1,9 +1,9 @@
 package iotdm
 
 import (
-	"../../auth"
-	"../../bce"
-	"./api"
+	"github.com/baidubce/bce-sdk-go/auth"
+	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/YaoJunZhao/bce-sdk-go/services/iotdm/api"
 )
 
 type Client struct {

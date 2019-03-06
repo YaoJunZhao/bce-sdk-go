@@ -3,8 +3,8 @@ package api
 import (
 	"encoding/json"
 
-	"../../../bce"
-	"../../../http"
+	"github.com/baidubce/bce-sdk-go/bce"
+	"github.com/baidubce/bce-sdk-go/http"
 )
 
 type deviceInfo struct {
